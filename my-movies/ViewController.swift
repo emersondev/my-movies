@@ -13,8 +13,14 @@ class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        movies.append(Movies(title: "movie1", description: "description1"))
-        movies.append(Movies(title: "movie2", description: "description2"))
+        movies.append(
+            Movies(title: "movie1", description: "description1", image: UIImage.init(named: "iMovie1")!
+                  )
+            )
+        movies.append(
+            Movies(title: "movie2", description: "description2", image: UIImage.init(named: "iMovie2")!
+                  )
+            )
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -30,7 +36,9 @@ class ViewController: UITableViewController {
         let identifier = "cellReuse"
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
         var content = cell.defaultContentConfiguration()
-        content.text = movies[indexPath.row].title
+        content.text = movie.title
+        content.image = movie.image
+        cell.contentConfiguration = content
         return cell
     }
 }
