@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7221B5427F941C500CEF547 /* CellMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7221B5327F941C500CEF547 /* CellMovie.swift */; };
 		A7FB198F27F508CC008AB7D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB198E27F508CC008AB7D2 /* AppDelegate.swift */; };
 		A7FB199127F508CC008AB7D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB199027F508CC008AB7D2 /* SceneDelegate.swift */; };
 		A7FB199327F508CC008AB7D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB199227F508CC008AB7D2 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7221B5327F941C500CEF547 /* CellMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMovie.swift; sourceTree = "<group>"; };
 		A7FB198B27F508CC008AB7D2 /* my-movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FB198E27F508CC008AB7D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7FB199027F508CC008AB7D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				A7FB199727F508D0008AB7D2 /* Assets.xcassets */,
 				A7FB199927F508D1008AB7D2 /* LaunchScreen.storyboard */,
 				A7FB199C27F508D1008AB7D2 /* Info.plist */,
+				A7221B5327F941C500CEF547 /* CellMovie.swift */,
 			);
 			path = "my-movies";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7FB199327F508CC008AB7D2 /* ViewController.swift in Sources */,
+				A7221B5427F941C500CEF547 /* CellMovie.swift in Sources */,
 				A7FB198F27F508CC008AB7D2 /* AppDelegate.swift in Sources */,
 				A7FB19A327F50CBF008AB7D2 /* Movies.swift in Sources */,
 				A7FB199127F508CC008AB7D2 /* SceneDelegate.swift in Sources */,
